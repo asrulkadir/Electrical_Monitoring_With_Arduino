@@ -29,10 +29,10 @@ int timer1;
 float tarif = 1444.70;
 float tagihan;
 
-char auth[] = "0Cw1ZY5En2UvvkxW2FN21m_ubjftU8Z-";
+char auth[] = ""; // insert auth token
 
-char ssid[] = "UNM_backup";
-char pass[] = "SSOUNMjaya";
+char ssid[] = "wifi";
+char pass[] = "password";
 
 BLYNK_WRITE(V10) {
   limit = param.asFloat();
